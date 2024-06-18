@@ -6,7 +6,19 @@ module.exports = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    colors: {
+      customPurple: "#7269ef",
+      customLightGrey: "#f5f7fb",
+      customGrey: "#e6ebf5",
+      goldYellow: "#FFDF00",
+    },
     extend: {
+      gridTemplateColumns: {
+        20: "repeat(20, minmax(0, 1fr))",
+      },
+      gridColumn: {
+        "span-14": "span 14 / span 14",
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
