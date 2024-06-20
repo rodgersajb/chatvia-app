@@ -1,6 +1,6 @@
-import Sidebar from "@/components/Sidebar";
-import Chats from "@/components/Chats";
-import Conversations from "@/components/Conversations";
+import Sidebar from "@/app/components/Sidebar";
+import Chats from "@/app/components/Chats";
+import Conversations from "@/app/components/Conversations";
 
 export default function Home() {
   return (
