@@ -2,7 +2,6 @@
   "name": "chatvia",
   "version": "0.1.0",
   "private": true,
-  
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -17,6 +16,7 @@
     "react": "^18",
     "react-dom": "^18",
     "react-icons": "^5.2.1",
+    "swiper": "^11.1.4",
     "validator": "^13.12.0"
   },
   "devDependencies": {

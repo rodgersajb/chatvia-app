@@ -6,13 +6,15 @@ module.exports = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    colors: {
-      customPurple: "#7269ef",
-      customLightGrey: "#f5f7fb",
-      customGrey: "#e6ebf5",
-      goldYellow: "#FFDF00",
-    },
     extend: {
+      colors: {
+        customPurple: "#7269ef",
+        customLightGrey: "#f5f7fb",
+        customGrey: "#e6ebf5",
+        altGrey: "#7a7a7a",
+        altDarkGrey: "#2e2e2e",
+        goldYellow: "#FFDF00",
+      },
       gridTemplateColumns: {
         20: "repeat(20, minmax(0, 1fr))",
       },

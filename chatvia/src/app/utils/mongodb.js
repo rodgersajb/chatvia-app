@@ -4,13 +4,14 @@ const connectionURL = "mongodb://127.0.0.1:27017";
 const client = new MongoClient(connectionURL);
 const databaseName = "chatvia";
 
-async function connect() {
-  await client.connect();
+async function main() {
+  await client.connect(connectionURL);
   const db = client.db(databaseName);
+
   db.collection("users").insertOne({
-    name: "crodg",
-    email: "crodg@crodg.com",
+    name: "Alex",
+    age: 35038484738,
   });
 }
 
-connect();
+main();
